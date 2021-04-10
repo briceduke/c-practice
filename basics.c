@@ -15,7 +15,7 @@ int main()
 
     float gpa0 = 2.5; // single precision
     double gpa1 = 3.5; // double precision
-    long double gpa2 = 3.6666; // extended precision
+    long double gpa2 = 3.6; // extended precision
 
     int isTall;
     isTall = 1; // use 0 or 1 for boolean
@@ -23,6 +23,8 @@ int main()
     const int IS_TALL = 1; // uppercase naming convention for constants
 
     printf("%s, your grade is %c \n", name, testGrade);
+
+    printf("%d \n", (int)3.14); // Cast double as int
 
     return 0;
 }
